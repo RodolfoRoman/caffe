@@ -1,0 +1,241 @@
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+/**Globales**/
+.contenedor {
+    max-width:120rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.8rem;    
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+/* Header */
+.site-header.inicio {
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    min-height: 60rem;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.fondo-barra {
+    background: black;
+    justify-content: space-between;
+   
+
+}
+
+.texto-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;        
+    padding-top: 10rem;
+    color:white;   
+    line-height: 5rem;
+}
+
+.navegacion a {    
+    color:white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right:  2rem;
+}
+
+.navegacion a:hover {
+    color: yellowgreen;
+}
+
+.navegacion a:last-of-type {
+    margin: 0;      
+}
+
+.contenido-principal.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-blog {
+    flex-basis: calc(33.33%-1rem);
+    padding:1rem;
+    justify-content: space-between;
+    padding-top:2rem;
+}
+
+.entrada-blog2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;        
+    padding: 2rem; 
+    line-height: 5rem;
+}
+
+/**Botones **/
+.btn {
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+}
+.btn-primario {
+    background-color: black;
+}
+
+.btn-secundario {
+    background-color: rgb(123, 50, 27);
+    font-size: 1rem;
+}
+ 
+
+footer p {
+    color:white;
+    text-decoration: none;
+    font-size: 3.5rem;
+    margin-right:  1rem;
+}
+
+header h1 {
+    color:white;
+    text-decoration: none;
+}
+
+.contenido-blog {
+    padding: 2rem;
+}
+
+.blog2 h2 {
+    text-align: center;
+}
+
+
+/**COOOOOOOOONACTOOOOOOOO **/
+#banner_contacto{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+}
+
+
+#barra_abajo{
+    margin-top: 10%;
+    background-color: black;
+    text-align: left;
+}
+
+#form{
+    margin-left: 25%;
+    text-align: center;
+
+   width: 50%;
+   
+    background-color: white;
+
+}
+
+.contacto p {
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+legend {
+    font-size: 2rem;
+    color: #4f4f4f;
+}
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+textarea {
+    height: 20rem;
+}
+.forma-contacto {
+    max-width:30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnenviar{
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.tarjeta{
+    background-color: tomato;
+   
+}
